@@ -16,18 +16,18 @@ using these tools:
 
 1. Use the [QMK Configurator][qmk conf] to define keycodes in your keymap.
    * Read the [docs][qmk keys] to learn about keycodes.
-   * Your keymap should define **L_SHIFT**, **R_SHIFT** and **PAUSE**
-   * There is no **FN** key for function, try **MO(1)** instead.
+   * Your keymap should define `L_SHIFT`, `R_SHIFT` and (`PAUSE` or `B`)
+   * There is no `FN` key for function, try `MO(1)` instead.
    * Give your keymap a name to make it easier to find.
-   
+
 1. Click **Compile**, wait and then **Download Firmware**.
    
 1. Start **QMK Toolbox**
    * Click **Open** and select your downloaded firmware.
    * Select **atmega32u4** in the microcontroller pulldown menu.
    
-1. Put your Tokyo60 into boot loader mode using **L_SHIFT+R_SHIFT+PAUSE**.
-   * The default keymap defines **PAUSE** as **FN+p**.
+1. Put your Tokyo60 into boot loader mode using `L_SHIFT`+`R_SHIFT`+`PAUSE` or `L_SHIFT`+`R_SHIFT`+`B`. 
+   * The default keymap defines **PAUSE** as `FN`+`p`.
 1. You should see "DFU  device connected" in **QMK Toolbox**.
 1. Click the **Flash** button in QMK Toolbox.
 1. Wait for a "device disconnected" message.

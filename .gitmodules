@@ -1,0 +1,3 @@
+[submodule "firmware/tokyo60ispflashing"]
+	path = firmware/tokyo60ispflashing
+	url = git@github.com:davidfriar/tokyo60ispflashing.git
